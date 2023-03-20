@@ -124,6 +124,7 @@ public class CalculadoraServiceTest {
         Assert.assertTrue(menorAreaQuadrado == null);
         Assert.assertEquals(menorAreaQuadrado, null);
         Assert.assertFalse(menorAreaQuadrado == quadrado2);
+        Assert.assertNull(menorAreaQuadrado);
 
     }
 
